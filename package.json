@@ -1,0 +1,27 @@
+{
+  "name": "node_js_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersie93/node_js_api.git"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Ryan Erswell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ersie93/node_js_api/issues"
+  },
+  "homepage": "https://github.com/ersie93/node_js_api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
