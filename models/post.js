@@ -16,9 +16,9 @@ const postSchema = new mongoose.Schema({
 	content: {
 		type: String,
 		required: "Must be content with post",
-		minlength: 100,
+		minlength: 10,
 		maxlength: 2000
 	}
-})
+});
 
-module.exports= mongoose.model("Post", postSchema);
+module.exports = mongoose.model("Post", postSchema);
