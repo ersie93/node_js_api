@@ -3,21 +3,15 @@ const mongoose = require('mongoose');
 const postSchema = new mongoose.Schema({
 	author: {
 		type: String,
-		required: "Please enter the authors name",
-		minlength: 3,
-		maxlength: 50,
+		required: true
 	},
 	title: {
 		type: String,
-		required: "Please enter a title",
-		minlength: 5,
-		maxlength: 100
+		required: true
 	},
 	content: {
 		type: String,
-		required: "Must be content with post",
-		minlength: 10,
-		maxlength: 2000
+		required: true
 	}
 });
 
